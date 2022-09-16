@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;700&family=Prompt:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+.r a{
+    margin-right: 1rem;
+}
+
+.navbar-c {
+    margin-right: 2rem;
+}
+
+.card-c {
+    width: 50%;
+    height: 50%;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search form{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+}
+
+.form-inline button{
+    margin-left: 10px;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cc {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-zone {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-group {
+    width: 40%;
+}
+
+.imageZone {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 300px;
+    margin-right: 5rem;
+}
+
+.img1 p {
+    margin-top: 1.5rem;
+}
+
+.contact-wraper {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-c {
+    width: 60%;
+}
+
+.myContact {
+    margin-left: 1.25rem;
+    width: 40%;
+    border-left: 1px solid rgb(199, 199, 199);
+}
+
+.contact-data {
+    margin-left: 1.25rem;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+
+.icons {
+    font-size: 18px;
+    display: flex;
+}
+
+.text {
+    margin-left: 1rem;
+}
+
+.ans {
+    width: 50%;
+}
+
+.chart {
+    width: 50%;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 400px) {
+    .search {
+      display: none;
+    }
+
+    .rr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1.25rem
+    }
+
+    .rr .cc {
+        margin-bottom: 1rem;
+    }
+    
+  }
+
+
+/* .start-b a{
+    margin-left: 10px;
+} */
